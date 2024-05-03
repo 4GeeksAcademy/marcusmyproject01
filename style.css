@@ -1,0 +1,13 @@
+body{font-family:roboto;}
+.post{background-color: white; 
+width: 400px;
+margin:auto}
+.post-header{display:flex}
+.container{background-color: black;}
+.post-header div:first-child{display: inline-block; padding: 10px; font-size: 25px; margin-top: 10px;} 
+.post-header div p{display: inline-block;}
+.post-header div:last-child{display: inline-block; 
+text-align: right; width: 80%;margin: auto; margin-right: 10px; font-size: 25px;}
+.post-body{padding: 10px;}
+.post-body div:nth-child(1){display: inline-block; font-size: 20px;}
+.post-body div:nth-child(2){display: inline-block; text-align: right; width: 80%; font-size: 20px;}
